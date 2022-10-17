@@ -10,7 +10,6 @@
  */
 
 int main(void)
-
 {
 	int n;
 
@@ -19,7 +18,7 @@ int main(void)
 
 	if (n == 0)
 	{
-		prinf("%i is zero\n", n);
+		printf("%i is zero\n", n);
 	}
 	else if (n < 0)
 	{
@@ -29,6 +28,5 @@ int main(void)
 	{
 		printf("%i is positive\n", n);
 	}
-
 	return (0);
 }
